@@ -7,7 +7,3 @@ def square_sum(numbers)
     end
     total.reduce(:+)
 end
-
-n = []
-d = square_sum(n)
-p d

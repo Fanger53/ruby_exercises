@@ -4,7 +4,3 @@ def summation(num)
   array = (1..num).to_a
   array.reduce(:+)
 end
-
-n = 8
-
-summation(n)
